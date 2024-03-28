@@ -6,7 +6,7 @@ st.header('🌙website Devevolping using Python🌙')
 st.subheader('Woramet Kaichapoa')
 st.image('sea.jpg')
 
-dt=pd.read_csv('./data/Dry_Bean_Dataset.xlxs')
+dt=pd.read_csv('./data/iris.csv')
 
 st.subheader("ข้อมูลดอกไม้ Iris")
 st.write(dt.head(10))
